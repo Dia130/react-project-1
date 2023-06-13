@@ -39,6 +39,9 @@
 
 .right-element * {
     padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .telBtn {
@@ -51,8 +54,8 @@
     padding: 21px 18px;
     gap: 10px;
 
-    width: 190px;
-    height: 70px;
+    width: 180px;
+    height: 60px;
     left: 1415px;
     top: 80px;
 
@@ -68,3 +71,4 @@
     font-size: 18px;
     line-height: 22px;
 }
+
