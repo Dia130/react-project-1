@@ -12,7 +12,7 @@ const Top = () => {
       </div>
       <div className="right">
         <div className='right-element'>
-          <div className="addres">
+          <div className="address">
             <img src={subtract} alt="Not fount" />
             <small>Сочи, ул.Кольцова 17</small>
           </div>
