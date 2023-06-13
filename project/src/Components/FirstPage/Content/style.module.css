@@ -1,0 +1,87 @@
+.main {
+    position: absolute;
+    width: 506px;
+    height: 342px;
+    left: 220px;
+    top: 240px;
+}
+
+.name {
+    width: 505px;
+    height: 102px;
+    color: #fff;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 51px;
+
+    margin-bottom: 25px;
+}
+
+.description {
+    width: 450px;
+    height: 84px;
+
+    color: #fff;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+
+    margin-bottom: 25px;
+
+}
+
+.buttons {
+    width: 505px;
+    height: 102px;
+    color: #fff;
+}
+
+.buttonDiv {
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+
+    align-items: center;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 54px;
+    gap: 15px;
+    
+    border: none;
+    outline: none;
+
+    width: 100%;
+    height: 70px;
+    left: 315px;
+    top: 601px;
+
+    color:#fff;
+    background: linear-gradient(255.21deg, #43BE5F 0%, #48CC66 99.64%);
+    border-radius: 10px;
+}
+.button:hover{
+    background: linear-gradient(255.21deg, #2c6439 0%, #3baa55 99.64%);
+
+}
+.playerDiv {
+    width: 50%;
+    height: 100%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playerDiv  *{
+    color: #fff;
+    margin-right: 15px;
+}

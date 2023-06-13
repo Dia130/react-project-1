@@ -1,0 +1,70 @@
+.main {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+}
+
+
+
+.logo {
+    width: 55%;
+    height: 35%;
+    margin: 25px 50px;
+    left: 220px;
+
+}
+
+
+.left {
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.right {
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+
+.right-element {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.right-element * {
+    padding: 5px;
+}
+
+.telBtn {
+    border: none;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 18px;
+    gap: 10px;
+
+    width: 190px;
+    height: 70px;
+    left: 1415px;
+    top: 80px;
+
+    background: #43C060;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.right small {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
