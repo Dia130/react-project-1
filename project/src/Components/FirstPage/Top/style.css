@@ -10,15 +10,15 @@
     width: 55%;
     height: 35%;
     margin: 25px 50px;
-    left: 220px;
-
+    text-align: left;
 }
 
 
 .left {
+    display: flex;
     width: 40%;
     height: 100%;
-    float: left;
+    align-items: start;
 }
 
 .right {
